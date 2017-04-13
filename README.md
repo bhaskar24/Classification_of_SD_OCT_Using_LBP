@@ -1,5 +1,5 @@
 <img src="icon.png" align="right" />
-# Classification of SD-OCT using Local Binary Pattern and KNN Classifiers
+## Classification of SD-OCT using Local Binary Pattern and KNN Classifiers
 
 #### Prerequisites
 
