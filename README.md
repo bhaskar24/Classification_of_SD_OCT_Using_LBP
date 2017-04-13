@@ -1,5 +1,7 @@
 <img src="icon.png" align="right" />
-# Awesome README [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://www.hindawi.com/journals/joph/2016/3298606/)
+# Classification of SD-OCT Using LBP
+Classification of SD-OCT using Local Binary Pattern and KNN Classifiers
+(https://www.hindawi.com/journals/joph/2016/3298606/)
 > A curated list of awesome README
 
 Elements in beautiful READMEs include, but not limited to: images, screenshots, GIFs, text formatting, etc.
@@ -84,9 +86,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 * Inspiration
 * etc
 
-# Classification of SD-OCT Using LBP
-
-Classification of SD-OCT using Local Binary Pattern and KNN Classifiers
 
 ## Preprocessing: Following Folder contains following directory Struture:
 --------NLMVolume.m
