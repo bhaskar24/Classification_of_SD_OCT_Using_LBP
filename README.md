@@ -1,10 +1,5 @@
 <img src="icon.png" align="right" />
-# Classification of SD-OCT Using LBP
-Classification of SD-OCT using Local Binary Pattern and KNN Classifiers
-(https://www.hindawi.com/journals/joph/2016/3298606/)
-> A curated list of awesome README
-
-Elements in beautiful READMEs include, but not limited to: images, screenshots, GIFs, text formatting, etc.
+# Classification of SD-OCT using Local Binary Pattern and KNN Classifiers
 
 #### Prerequisites
 
