@@ -2,16 +2,18 @@
 
 <img src="icon.png" align="right" />
 
-#### Folder Structures
+## Folder Structures
 
 ## Preprocessing
 NLMVolume.m
+Will do NLM on whole volume and write _NLM denoised file in other file.
+```
+NLM.m----> For NLM of each frame individually
+				bound_extension.m----> For extending/mirroring boundary pixels for NLM
+				GetPSNR and psdnoise.m----> For calculating PSNR value
+```
 flattenVolume.m
 LBPVolume.m
-
-```
-Give examples
-```
 
 ### Installing
 
