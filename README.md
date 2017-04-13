@@ -1,9 +1,13 @@
+# Classification of SD-OCT using Local Binary Pattern and KNN Classifiers
+
 <img src="icon.png" align="right" />
-## Classification of SD-OCT using Local Binary Pattern and KNN Classifiers
 
-#### Prerequisites
+#### Folder Structures
 
-What things you need to install the software and how to install them
+## Preprocessing
+NLMVolume.m
+flattenVolume.m
+LBPVolume.m
 
 ```
 Give examples
