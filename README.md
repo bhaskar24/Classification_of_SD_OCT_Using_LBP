@@ -6,7 +6,7 @@
 
 ## Preprocessing
 NLMVolume.m
-Will do NLM on whole volume and write _NLM denoised file in other file.
+Will do Non Local Means on whole volume and write _NLM denoised file in other file.
 ```
 NLM.m----> For NLM of each frame individually
 				bound_extension.m----> For extending/mirroring boundary pixels for NLM
