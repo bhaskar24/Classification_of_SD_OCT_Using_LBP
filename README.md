@@ -87,7 +87,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 * Dr. Jeny Rajan, Assistant Professor, National Institute of Technology Karnataka, Surathkal India.
 
 
-## Preprocessing: Following Folder contains following directory Struture:
+## Preprocessing: Following Folder contains following directory Struture
 * NLMVolume.m
 	*Will do NLM on whole volume and write _NLM denoised file in other file.
 	* Required files: 
@@ -99,10 +99,14 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 			> For calculating PSNR value
 				
 * flattenVolume.m
----------------Will do image flattening and Alignement of  each frames in whole volume and write _FA in other file.
-		Required files: flatten.m----> For flattening and aligning of each frames
-				ployRegression.m----> For polynomial regression of degree 2 for smooth curve.
-				oct_align.m----> For cropping of only neceesary portion.
+	*Will do image flattening and Alignement of  each frames in whole volume and write _FA in other file.
+	* Required files: 
+		* flatten.m
+			> For flattening and aligning of each frames
+		* ployRegression.m
+			> For polynomial regression of degree 2 for smooth curve.
+		* oct_align.m
+			> For cropping of only neceesary portion.
 
 ## Local Binary Pattern:
 * LBPVolume.m
