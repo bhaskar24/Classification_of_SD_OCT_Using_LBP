@@ -89,10 +89,12 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Preprocessing: Following Folder contains following directory Struture:
 * NLMVolume.m
-----------------Will do NLM on whole volume and write _NLM denoised file in other file.
-		Required files: NLM.m----> For NLM of each frame individually
-				bound_extension.m----> For extending/mirroring boundary pixels for NLM
-				GetPSNR and psdnoise.m----> For calculating PSNR value
+	*Will do NLM on whole volume and write _NLM denoised file in other file.
+	* Required files: 
+		* NLM.m
+			> For NLM of each frame individually
+			> bound_extension.m----> For extending/mirroring boundary pixels for NLM
+			> GetPSNR and psdnoise.m----> For calculating PSNR value
 				
 * flattenVolume.m
 ---------------Will do image flattening and Alignement of  each frames in whole volume and write _FA in other file.
