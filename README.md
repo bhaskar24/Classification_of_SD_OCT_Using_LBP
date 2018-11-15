@@ -82,43 +82,41 @@ See also the list of [contributors](https://github.com/your/project/contributors
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
-
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
+* Parth Shah, Linux Technology Center, IBM Systems Lab, India.
+* Tejeshwara B. M., Mercedes-Benz Research & Development India.
+* Dr. Jeny Rajan, Assistant Professor, National Institute of Technology Karnataka, Surathkal India.
 
 
 ## Preprocessing: Following Folder contains following directory Struture:
---------NLMVolume.m
+* NLMVolume.m
 ----------------Will do NLM on whole volume and write _NLM denoised file in other file.
 		Required files: NLM.m----> For NLM of each frame individually
 				bound_extension.m----> For extending/mirroring boundary pixels for NLM
 				GetPSNR and psdnoise.m----> For calculating PSNR value
 				
---------flattenVolume.m
+* flattenVolume.m
 ---------------Will do image flattening and Alignement of  each frames in whole volume and write _FA in other file.
 		Required files: flatten.m----> For flattening and aligning of each frames
 				ployRegression.m----> For polynomial regression of degree 2 for smooth curve.
 				oct_align.m----> For cropping of only neceesary portion.
 
-LBP:
---------LBPVolume.m
+## Local Binary Pattern:
+* LBPVolume.m
 ---------------Will extract features and labels from each frames individually and gives labels to each frame from grader.mat file.
 		Required files: LBPFrame.m----> LBP of each individual frames.
 				efficientLBP.m----> For calculting LBP in (8,1) mode.
 				generateRadialFilter.m----> For generating radius filter of (8,1).
 				UniformLBP8.txt----> For mapping of labels in (8,1) mode.
 				ExtractLables.m----> For extracting Features and Labels from whole volume.
-Classification:
----------TestKNN.m
+## Classification:
+* TestKNN.m
 --------------On given mat files, will train the model and give last mat file as test cae to it and will show how much incorrect values it got.
 		Required files: KNN.m----> Will take value of k as argument and gives trained model
 
 As per our project, we were able to achieve 80% Sensitivity and 100% Specificity.
 
-Dataset:
+## Dataset:
 Link: https://mirror.nitk.ac.in/owncloud/index.php/s/ZRxtIDWsMJjXATe (will work in NITK intranet only).
-----------------> NLM Data-> contains volume already denoised with NLM.
-----------------> Flattening+Align Data -> After NLM, Flattening and alignment, volumes are stored here.
-----------------> LBP Data-> After NLM,Flattening, Aligning and LBP Feature Extraction data is stored here.
-
+ * NLM Data-> contains volume already denoised with NLM.
+ * Flattening+Align Data -> After NLM, Flattening and alignment, volumes are stored here.
+ * LBP Data-> After NLM,Flattening, Aligning and LBP Feature Extraction data is stored here.
