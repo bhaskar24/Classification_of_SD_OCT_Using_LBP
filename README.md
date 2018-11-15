@@ -93,8 +93,10 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 	* Required files: 
 		* NLM.m
 			> For NLM of each frame individually
-			> bound_extension.m----> For extending/mirroring boundary pixels for NLM
-			> GetPSNR and psdnoise.m----> For calculating PSNR value
+		* bound_extension.m
+			> For extending/mirroring boundary pixels for NLM
+		* GetPSNR and psdnoise.m
+			> For calculating PSNR value
 				
 * flattenVolume.m
 ---------------Will do image flattening and Alignement of  each frames in whole volume and write _FA in other file.
